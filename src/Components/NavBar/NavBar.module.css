@@ -1,5 +1,12 @@
+:root {
+    --whiteColor: #fff;
+    --purpleColor: #8B5CF6;
+    --grayColor: #eeeeee;
+}
+
+
 .navBar{
-    background-color: #aaa;
+    background-color: var(--grayColor);
     width: 100%;
     padding: 10px 0;
     display: flex;
@@ -15,6 +22,8 @@ header h2 {
     width: 30px;
     height: 30px;
     padding: auto 7px;
-    background: #8B5CF6;
+    background: var(--purpleColor);
     border-radius: 50%;
+    text-align: center;
+    color: var(--whiteColor);
 }

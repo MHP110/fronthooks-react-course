@@ -1,7 +1,5 @@
 import styles from './NavBar.module.css';
 import { BsBasket } from "react-icons/bs";
-import { FaSignInAlt } from "react-icons/fa";
-
 
 const NavBar = (props) => {
     return (  
