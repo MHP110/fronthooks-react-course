@@ -1,0 +1,20 @@
+.navBar{
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header h2 {
+    font-weight: 600;
+}
+
+.totalItems{
+    width: 30px;
+    height: 30px;
+    padding: auto 7px;
+    background: #8B5CF6;
+    border-radius: 50%;
+}
