@@ -30,7 +30,7 @@ export const useCountAction = () => {
         setCount((prevCount) => prevCount + 5)
     }
     const decrement = () => {
-        setCount((prevCount) => prevCount + 5)
+        setCount((prevCount) => prevCount - 1)
     }
 
     return {addOne, addFive, decrement};
