@@ -9,7 +9,7 @@ import HoverCounter from './Components/HocExample/hoverCounter';
 import FunctionalRef from './Components/RefComponent/FunctionalRef';
 import ClassRef from './Components/RefComponent/ClassRef';
 import CounterProvider from './Components/Context/CounterProvider';
-import CounterOne from './Components/Context/CounterOne';
+import CounterOne from './Components/Context/Counter';
 import { render } from '@testing-library/react';
 
 
